@@ -47,7 +47,7 @@ Share this page:
 
 
 <div id="right">    
-<div class="pull-right">
+<div class="pull-right social_links">
 <div class="fb-like" data-href="http://boldprogressives.org" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
 
 <a href="https://twitter.com/boldprogressive" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @boldprogressive</a>
@@ -476,6 +476,9 @@ Share this page:
 		
 		<script type="text/javascript" src="js/responsivegridsystem.js"></script>
 		<script type="text/javascript">
+		
+		
+		
 		$(function() {
 
 			var $sidescroll	= (function() {
@@ -1245,6 +1248,16 @@ Share this page:
 			$sidescroll.init();
 			
 		});
+		
+		$(".social_links").find("fb-like span").css("vertical-align", "baseline");
+		
+		$(document).bind('DOMNodeInserted', function(event) {
+     if(event.relatedNode.className == "fb-like fb_iframe_widget"){
+      console.log('inserted ' + event.target.nodeName + // new node
+            ' in ' + event.relatedNode.className+".  ID is:" + event.target.className); // parent
+            event.target.setAttribute("style", "vertical-align: baseline !important; color:blue");
+            }
+});
 		
 		</script>
 

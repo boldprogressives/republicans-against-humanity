@@ -259,6 +259,9 @@ position: absolute;
 top: 20px;
 right: 190px;
 }
+.fb-like > span{
+vertical-align: baseline !important;
+}
 
 @media only screen and (max-width: 890px) {
 	
