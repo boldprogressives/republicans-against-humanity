@@ -61,11 +61,31 @@ li{
 	font-size:17px;
 }
 
-#social{
+#social, .bottom{
 	padding: 1px 0 0 0;
 	font-weight:300;
 	padding: 2px 0 0 42px;
 	font-size:17px;
+}
+
+
+.bottom{
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+}
+
+.bottom a{
+  color: #ccc;
+}
+
+.disclaimer{
+  margin-top:10px;
+  border: solid 1px #ccc;
+  padding: 6px;
+  font-size: 10px;
+  width: 90%;
+  text-align: center;
 }
 
 #social ul{
@@ -259,7 +279,7 @@ position: absolute;
 top: 20px;
 right: 190px;
 }
-.fb-like > span{
+.fb-baseline{
 vertical-align: baseline !important;
 }
 

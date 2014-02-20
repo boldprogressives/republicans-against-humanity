@@ -43,6 +43,13 @@ Share this page:
 </ul>
 	</div>
 
+<div class="bottom">
+<a href="#">Privacy Policy</a> | <a href="aboutpccc.html">About PCCC</a>
+<div class="disclaimer">
+Paid for by Progressive Change Campaign Committee</div>
+
+</div>
+
 </div>
 
 
@@ -1253,10 +1260,10 @@ Share this page:
 		
 		$(document).bind('DOMNodeInserted', function(event) {
      if(event.relatedNode.className == "fb-like fb_iframe_widget"){
-      console.log('inserted ' + event.target.nodeName + // new node
-            ' in ' + event.relatedNode.className+".  ID is:" + event.target.className); // parent
-            event.target.setAttribute("style", "vertical-align: baseline !important; color:blue");
-            }
+            event.target.style.verticalAlign ="baseline !important";
+            event.target.setAttribute("style", "vertical-align: baseline !important;");
+            console.log("why");
+      }
 });
 		
 		</script>
