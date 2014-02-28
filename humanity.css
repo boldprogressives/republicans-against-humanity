@@ -7,31 +7,40 @@ button{
 
 .modal, .modal-backdrop{
   left: 333px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.modal-dialog{
+  width: 400px;
+  margin: 100px auto;
+}
+
+.modal-body{
+  padding: 0;
 }
 
 .modal-content {
 background-color: #000;
 border-radius: 0; 
 color: #FFF;
-width: 500px;
+padding: 20px;
 }
 .close {
 float: right;
-font-size: 21px;
+font-size: 16px;
 font-weight: 700;
 line-height: 1;
+padding: 10px;
 color: #fff;
 text-shadow: 0 1px 0 #FFF;
 margin-top: -2px;
 }
 
-.modal-header {
-border-bottom: none;
-}
 
-.modal-header h2{
+.modal h2{
   line-height: 1em;
   margin: 0;
+  font-size: 30px;
 }
 
 button.close {
