@@ -1,6 +1,55 @@
 @charset "UTF-8";
 /* CSS Document */
 
+button{
+  overflow: visible;
+}
+
+.modal, .modal-backdrop{
+  left: 333px;
+}
+
+.modal-content {
+background-color: #000;
+border-radius: 0; 
+color: #FFF;
+width: 500px;
+}
+.close {
+float: right;
+font-size: 21px;
+font-weight: 700;
+line-height: 1;
+color: #fff;
+text-shadow: 0 1px 0 #FFF;
+margin-top: -2px;
+}
+
+.modal-header {
+border-bottom: none;
+}
+
+.modal-header h2{
+  line-height: 1em;
+  margin: 0;
+}
+
+button.close {
+padding: 0;
+cursor: pointer;
+background: 0 0;
+border: 0;
+-webkit-appearance: none;
+}
+
+.close:hover, .close:focus {
+color: #ccc;
+text-decoration: none;
+cursor: pointer;
+opacity: .5;
+filter: alpha(opacity=50);
+}
+
 body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin:0;
@@ -308,6 +357,7 @@ right: 190px;
 .fb-baseline{
 vertical-align: baseline !important;
 }
+
 
 @media only screen and (max-width: 890px) {
 	
