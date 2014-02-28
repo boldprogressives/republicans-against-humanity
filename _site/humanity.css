@@ -231,6 +231,42 @@ li{
   margin:12px;
 }
 
+input{
+  background: #ccc;
+  color: #000;
+  border: none;
+  height: 30px;
+  font-size: 13px;
+  padding: 2px 6px;
+}
+
+input[name="zip"]{
+  width: 26%;
+}
+
+input[name="email"]{
+  width: 70%;
+}
+
+input placeholder{
+  color: #ccc;
+}
+
+
+::-webkit-input-placeholder { color:#333; }
+::-moz-placeholder { color:#333; } /* firefox 19+ */
+:-ms-input-placeholder { color:#333; } /* ie */
+input:-moz-placeholder { color:#333; }
+
+button[type="submit"], input[type=submit]{
+  background: #fff;
+  border: none;
+  margin-top: 15px;
+  padding: 5px 30px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
 
 .blacklogo p{
   height:15px;
