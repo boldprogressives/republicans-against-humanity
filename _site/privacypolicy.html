@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
        
 <title>Republicans Against Humanity - Privacy Policy</title>
-<link rel="stylesheet" type="text/css" href="css/bootstrap-modal.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="humanity.css">
 
 <script type="text/javascript" src="js/modernizr.custom.11333.js"></script>
@@ -37,11 +37,15 @@
 	<div id="social">
 Share this page:
 <ul>
-<li><a href=""><img src="http://scotch-creative.com/contact/cah-mail-icn.png" width="25px"></a></li>
-<li><a href=""><img src="http://scotch-creative.com/contact/cah-tw-icn.png" width="25px"></a></li>
-<li><a href=""><img src="http://scotch-creative.com/contact/cah-fb-icn.png" width="25px"></a></li>
+<li><button type="button" class="btn pop" data-container="body" data-toggle="popover" data-html="true" data-placement="right" data-content="<input type='text' value='http://www.republicansagainsthumanity.com/'>">
+  <img src="http://scotch-creative.com/contact/cah-mail-icn.png" width="25px">Copy URL</a>
+</button></li>
+<li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.republicansagainsthumanity.com/" data-text="A party for truly horrible people." data-via="boldprogressive" data-lang="en">Tweet</a>
+</li>
+<li><div class="fb-share-button" data-href="http://www.repubicansagainsthumanity.com" data-type="button_count"></div>
+</li>
 </ul>
-	</div>
+</div>
 
 <div class="bottom">
 <a href="privacypolicy.html">Privacy Policy</a> | <a href="aboutpccc.html">About PCCC</a>
@@ -75,7 +79,7 @@ Paid for by Progressive Change Campaign Committee PAC (BoldProgressives.org) and
 		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 		
 		<script type="text/javascript" src="js/responsivegridsystem.js"></script>
- 		<script type="text/javascript" src="js/bootstrap-modal.min.js"></script>
+ 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/humanity.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -87,5 +91,11 @@ Paid for by Progressive Change Campaign Committee PAC (BoldProgressives.org) and
   ga('send', 'pageview');
 
 </script>
+
+<script type="text/javascript">
+$('.pop').popover();
+</script>
+
+
 </body>
 </html>

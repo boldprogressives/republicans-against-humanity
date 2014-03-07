@@ -122,10 +122,7 @@ function handleActionkitSuccess(form) {
 		$("#thankyou").modal('show');
 		    
 		}
-		
 
-		
-};
 
 
 validators = {};
